@@ -1,6 +1,44 @@
 .intro { 
-    max-height: 200px;
-    min-height: 200px;
-    overflow: scroll;
+    max-height: 150px;
+    min-height: 150px;
+    overflow: hidden;
+     z-index: 0;
+   border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+     border-bottom-right-radius: 1em;
+}
+
+.blockdata{
     
 }
+
+.blockdata:hover{
+    opacity: 0.2;
+    background-color: rgba(0, 188, 212, 0.8);
+}
+
+#hoverOptions{
+     opacity: 0.9;
+}
+
+#frontlayer {
+    
+     max-height: 150px;
+    min-height: 150px;
+    position: sticky;
+    width: 100%;
+     border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+     border-bottom-right-radius: 1em;
+    background: rgba(255,255,255, 0.01);
+   /* background-color: rgba(0, 188, 212, 0.8);*/
+    /*background-color:orange;*/
+ visibility: visible;
+  border: 1px solid black;
+  z-index: 9999;
+    opacity: 0.9;
+} 
+
+.voffset  { margin-top: 10px; }
